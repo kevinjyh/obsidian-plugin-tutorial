@@ -3,9 +3,9 @@
 	"name": "我的第一個OBS試驗性外掛",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "This is a sample plugin for Obsidian. This plugin demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
+	"description": "這是一個簡易的OBS插件，它展示了OBS API的擴充性",
+	"author": "Kevin Shen",
+	"authorUrl": "https://kevin.shen",
 	"fundingUrl": "https://obsidian.md/pricing",
 	"isDesktopOnly": false
 }

@@ -1,7 +1,10 @@
 import { Plugin } from 'obsidian'
 
 export default class ExamplePlujin extends Plugin {
+	statusBarTextElement: HTMLSpanElement;
+
 	onload(): void {
-		console.log('世界，您好！');
+		this.statusBarTextElement = this.addStatusBarItem().createEl('span');
+		this.statusBarTextElement.textContent = '您好';
 	}
 }
